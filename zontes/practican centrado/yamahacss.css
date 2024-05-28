@@ -1,0 +1,9 @@
+.conteiner {
+    display: flex;
+    flex-shrink: 1;
+
+}
+
+.ray125bordo {
+    flex-shrink: 1;
+}
