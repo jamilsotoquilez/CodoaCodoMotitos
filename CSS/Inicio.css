@@ -1,0 +1,115 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+header,footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+main { display: flex;
+    justify-content: center;
+}
+.productos {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: space-around;
+align-items: flex-start;
+margin-top: 20px;
+}
+.producto {
+border: 1 px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+flex-basis: 300px;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+justify-content: center;
+}
+
+.menu {
+list-style: none;
+background-color: black;
+padding: 20px;
+justify-content: center;
+flex-wrap: nowrap;
+
+}
+
+.menu li {
+position:relative;
+display: inline-block;
+background-color: black;
+justify-content: center;
+}
+
+.menu li:hover ul {
+display: block;
+background-color: black;
+justify-content: center;
+}
+
+.menu ul {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background-color: black;
+justify-content: center;
+}
+
+.menu ul li a {
+display: block;
+padding: 10px;
+text-decoration: none;
+color: white;
+justify-content: center;
+
+}
+
+.menu ul li a:hover {
+background-color: black;
+justify-content: center;
+}
+
+.menu li a {
+text-decoration: none;
+padding: 10px;
+color: white;
+justify-content: center;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-size: 40px;
+font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    float: left;
+    background-color: black;
+    font-weight:bold;
+    font-family: Georgia;
+    justify-content: center;
+}
