@@ -90,6 +90,12 @@ justify-content: center;
 }
 
 h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
     position: relative;
     font-size: 3vw;
     color: #252839;
